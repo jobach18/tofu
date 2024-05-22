@@ -30,4 +30,12 @@ pythia-1.4:
   flash_attention2: "false"
   gradient_checkpointing: "false"
 
+phi3:
+  hf_key: "microsoft/Phi-3-small-128k-instruct"
+  question_start_tag: "Question: "
+  question_end_tag: "\n"
+  answer_tag: "Answer: "
+  flash_attention2: "false"
+  gradient_checkpointing: "false"
+  ft_model_path: "data/tofu_ft_phi-3"
   
